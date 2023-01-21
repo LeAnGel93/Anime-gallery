@@ -1,0 +1,35 @@
+<ul>
+    <li *ngFor="let anime of list">
+        <img [ngStyle]="{'width': '300px', 'height':'420px'}" src="{{anime.attributes.posterImage.original}}" alt="{{anime.attributes.posterImage.original}}">
+        <p>{{anime.attributes.canonicalTitle}}</p>
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let anime of list2">
+        <img [ngStyle]="{'width': '300px', 'height':'420px'}" src="{{anime.attributes.posterImage.original}}" alt="{{anime.attributes.posterImage.original}}">
+        <p>{{anime.attributes.canonicalTitle}}</p>
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let anime of list3">
+        <img [ngStyle]="{'width': '300px', 'height':'420px'}" src="{{anime.attributes.posterImage.original}}" alt="{{anime.attributes.posterImage.original}}">
+        <p>{{anime.attributes.canonicalTitle}}</p>
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let anime of list4">
+        <img [ngStyle]="{'width': '300px', 'height':'420px'}" src="{{anime.attributes.posterImage.original}}" alt="{{anime.attributes.posterImage.original}}">
+        <p>{{anime.attributes.canonicalTitle}}</p>
+    </li>
+</ul>
+<ul>
+    <li *ngFor="let anime of list5">
+        <img [ngStyle]="{'width': '300px', 'height':'420px'}" src="{{anime.attributes.posterImage.original}}" alt="{{anime.attributes.posterImage.original}}">
+        <p>{{anime.attributes.canonicalTitle}}</p>
+    </li>
+</ul>
+
+<!-- pintamos las cosas que nos interesan tomando como referencia la variable de array list, que se encuentra recogida con un Input en el ts de gallery.ts, viniendo de home-page-hmtl -->
